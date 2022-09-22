@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #010101;
+    padding: 50px 0;
+}
+
+h3,
+h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #010101;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.order-track-outer {
+    width: 100%;
+    max-width: 576px;
+    margin: 0 auto;
+}
+
+.track-header {
+    background: #bebebe;
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.half-col {
+    width: 50%;
+}
+
+.track-body {
+    padding: 30px 0;
+}
+
+.track-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: relative;
+}
+
+.track-item:after {
+    content: '';
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #808080;
+}
+
+.track-item:last-child:after {
+    display: none;
+}
+
+.track-item .status {
+    width: 100%;
+    z-index: 9;
+    font-weight: 700;
+}
+
+.track-item .status:first-child {
+    text-align: right;
+}
+
+.status .status-color {
+    width: 40px;
+    height: 40px;
+    background: #0a1172;
+    margin: 0 auto;
+}
+
+.ordered .status-color {
+    background: #0a1172;
+}
+
+.shipped .status-color {
+    background: #d3d3d3;
+}
+
+.delivery .status-color {
+    background: #ffa701;
+}
+
+.delivered .status-color {
+    background: #3cb043;
+}
+
+.track-body {
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1366px and down) */
+@media (max-width: 1366px) {}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+    .row {
+        display: block;
+    }
+
+    .half-col {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .track-header {
+        padding: 20px;
+    }
+
+    .track-item .status {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
