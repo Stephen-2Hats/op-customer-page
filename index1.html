@@ -6,29 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-
     <div class="container">
-
-
         <div class="order-track-outer">
             <div class="track-header">
-                <h3>Order Number: ...</h3>
+                <h5>Order Number: ...</h5>
                 <div class="row">
-                    <div class="half-col">
-                        <h4>Billing Address</h4>
+                    <div class="col-md-6">
+                        <h6>Billing Address</h6>
                         <p>Salutation</p>
                         <p>First name, Surname</p>
                         <p>Street, House number</p>
                         <p>Postal code, City</p>
                     </div>
-                    <div class="half-col">
-                        <h4>Shipping Address</h4>
+                    <div class="col-md-6">
+                        <h6>Shipping Address</h6>
                         <p>Salutation</p>
                         <p>First name, Surname</p>
                         <p>Street, House number</p>
@@ -36,76 +34,61 @@
                     </div>
                 </div>
             </div>
-
             <div class="track-body">
-
-                <div class="track-item ordered">
+                <div class="track-item">
                     <div class="status">
                         <span>22.9.22, 12:40 Uhr</span>
                     </div>
                     <div class="status">
-                        <div class="status-color"></div>
+                        <div class="status-color bg-dark"></div>
                     </div>
                     <div class="status">
                         <span>Open Order</span>
                     </div>
                 </div>
-
-                <div class="track-item shipped">
+                <div class="track-item">
                     <div class="status">
                         <span>Date, Time</span>
                     </div>
                     <div class="status">
-                        <div class="status-color"></div>
+                        <div class="status-color bg-secondary"></div>
                     </div>
                     <div class="status">
                         <span>Status</span>
                     </div>
                 </div>
-
-                <div class="track-item delivery">
+                <div class="track-item">
                     <div class="status">
                         <span>Date, Time</span>
                     </div>
                     <div class="status">
-                        <div class="status-color"></div>
+                        <div class="status-color bg-warning"></div>
                     </div>
                     <div class="status">
                         <span>Status</span>
                     </div>
                 </div>
-
-                <div class="track-item delivered">
+                <div class="track-item">
                     <div class="status">
                         <span>Date, Time</span>
                     </div>
                     <div class="status">
-                        <div class="status-color"></div>
+                        <div class="status-color bg-success"></div>
                     </div>
                     <div class="status">
                         <span>Status</span>
                     </div>
                 </div>
-
             </div>
         </div>
-
-
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </html>

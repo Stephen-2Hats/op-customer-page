@@ -2,21 +2,18 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
-.container {
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: #010101;
-    padding: 50px 0;
 }
 
-h3,
-h4 {
-    margin-top: 0;
-    margin-bottom: 20px;
+h5,
+h6 {
+    font-weight: 700;
 }
 
 p {
@@ -25,7 +22,6 @@ p {
     line-height: 18px;
     color: #010101;
     margin-bottom: 10px;
-    margin-top: 0;
 }
 
 .order-track-outer {
@@ -37,14 +33,6 @@ p {
 .track-header {
     background: #bebebe;
     padding: 30px;
-}
-
-.row {
-    display: flex;
-}
-
-.half-col {
-    width: 50%;
 }
 
 .track-body {
@@ -87,39 +75,8 @@ p {
 .status .status-color {
     width: 40px;
     height: 40px;
-    background: #0a1172;
     margin: 0 auto;
 }
-
-.ordered .status-color {
-    background: #0a1172;
-}
-
-.shipped .status-color {
-    background: #d3d3d3;
-}
-
-.delivery .status-color {
-    background: #ffa701;
-}
-
-.delivered .status-color {
-    background: #3cb043;
-}
-
-.track-body {
-    padding: 20px 0;
-}
-
-
-
-
-
-
-
-
-
-
 
 /* Extra large devices (large desktops, 1366px and down) */
 @media (max-width: 1366px) {}
@@ -136,28 +93,17 @@ p {
 /* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) {
 
-    h4 {
-        margin-bottom: 10px;
-    }
-
-    p{
+    p {
         font-size: 12px;
         line-height: 16px;
     }
 
-
-    .row {
-        display: block;
-    }
-
-    .half-col {
-        width: 100%;
-        padding: 0;
-        margin-bottom: 20px;
-    }
-
     .track-header {
         padding: 20px;
+    }
+
+    .track-body {
+        padding: 20px 0;
     }
 
     .track-item .status {
