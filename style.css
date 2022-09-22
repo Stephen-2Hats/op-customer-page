@@ -11,6 +11,11 @@ body {
     color: #010101;
 }
 
+.main-outercon{
+    overflow: hidden;
+    padding: 50px 0;
+}
+
 h5,
 h6 {
     font-weight: 700;
@@ -37,7 +42,7 @@ p {
 }
 
 .track-body {
-    padding: 30px 0;
+    padding: 30px 0 0;
 }
 
 .track-item {
@@ -91,7 +96,11 @@ p {
 @media (max-width: 992px) {}
 
 /* Medium devices (tablets, 768px and down) */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .main-outercon{
+        padding: 40px 0;
+    }
+}
 
 /* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) {
@@ -114,7 +123,7 @@ p {
     }
 
     .track-body {
-        padding: 20px 0;
+        padding: 20px 0 0;
     }
 
     .track-item {
